@@ -1,0 +1,63 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  align-items: center;
+  background-color: #494d5f;
+  padding: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contactInfo {
+  align-items: center;
+  gap: 15px;
+}
+
+.contactName {
+  color: #a0d2eb;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.contactLink {
+  color: #d0bdf4;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.contactLink:hover,
+.contactLink:active {
+  color: #a0d2eb;
+  transform: scale(1.05);
+}
+
+.btn {
+  background-color: #8458b3;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  color: #a0d2eb;
+  transform: scale(1.05);
+  border: 1px solid #a0d2eb;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}

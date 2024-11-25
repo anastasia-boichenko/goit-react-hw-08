@@ -1,0 +1,23 @@
+.searchBox {
+  display: flex;
+  flex-direction: column;
+
+  color: #003135;
+  width: 400px;
+}
+
+.searchLabel {
+  font-weight: bold;
+}
+
+.searchField {
+  padding: 10px;
+  border: 2px solid #d0bdf4;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+}
+
+.searchField:focus {
+  border-color: #a0d2eb;
+}

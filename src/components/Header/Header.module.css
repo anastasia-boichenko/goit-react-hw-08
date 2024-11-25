@@ -1,0 +1,20 @@
+.header {
+  background-color: #494d5f;
+  padding: 10px 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.authSection {
+  display: flex;
+  align-items: center;
+}

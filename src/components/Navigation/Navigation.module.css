@@ -1,0 +1,18 @@
+.link {
+  color: #d0bdf4;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.active {
+  color: #a0d2eb;
+  transform: scale(1.05);
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #a0d2eb;
+  transform: scale(1.05);
+  font-weight: bold;
+}
